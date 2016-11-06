@@ -1,0 +1,27 @@
+Rozbudowanie problemu śpiącego golibrody
+
+Program będzie bazował na klasycznym problemie śpiącego golibrody, w którym 
+zostaną wprowadzone następujące modyfikacje:
+- w jednym budynku mieścić się będzie określona ilość gabinetów (1-3)
+- w każdym gabinecie jest określona liczba golibrodów, która mieści się w 
+przedziale 1-3. W każdym gabinecie może być różna liczba golibrodów. 
+- każdy golibroda ma swoje stanowisko pracy, wszyscy mogą pracować 
+jednocześnie, każdy przy swoim stanowisku
+- w każdym gabinecie istnieje poczekalnia z ustaloną liczbą krzeseł (pierwotna 
+myśl - jednakowa dla każdego gabinetu, może spróbuję dla różnej liczby 
+krzeseł)
+- klientów do gabinetów przekierowuje portier, który może także zaprosić 
+klienta do poczekalni mieszczącej się tuż koło portierni, gdy wie że miejsc w 
+poczekalniach przy gabinetach już nie ma (zna ogólną liczbę miejsc w 
+poczekalniach przy gabinetach oraz liczbę golibrodów)
+- portier przekierowuje klientów proporcjonalnie do obsługujących golibrodów w 
+danym gabinecie,
+- jeśli w danej poczekalni nie ma miejsc klient idzie sprawdzić w gabinecie 
+obok,
+
+
+Uzasadnienie praktyczne:
+
+odprawa paszportowa na lotnisku po przybyciu na miejsce (jedna kolejka do trzech mniejszych, które są obsługiwane przez różną liczbę pracowników - przykład lotniska w Londynie) 
+
+kasy samoobsługowe w supermarketach
